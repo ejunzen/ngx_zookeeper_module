@@ -1,4 +1,4 @@
-ngx_zookeeper_moudule
+ngx_zookeeper_module
 =====================
 
 can register a watcher node to zk
