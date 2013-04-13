@@ -1,0 +1,4 @@
+ngx_addon_name=ngx_module_zookeeper
+HTTP_MODULES="$HTTP_MODULES ngx_module_zookeeper"
+NGX_ADDON_SRCS="$NGX_ADDON_SRCS $ngx_addon_dir/ngx_module_zookeeper.c"
+CORE_LIBS="$CORE_LIBS -lzookeeper_mt"
